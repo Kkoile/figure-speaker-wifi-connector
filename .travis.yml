@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: Nils_Hirsekorn@online.de
+  api_key:
+    secure: WWXo1BJ1ojh2/Tq5rrKG3EkRkiveW0fe1EP78Q5nKPicMAtybFPF7VXVDkgbgfhYIZWK3x8FhVpm0EiFR2zyPrqNIIMb2iqdy2rP/3B2UXpSZF/KNvBx37QB+VIV3mDUIUSsDgiNKFg4KjJFiitjW6xqL64xS01BTrNidq2cJQlloxJuCGVuR09Wk9U9s72JJtYL4VH5CVye+W82QyXLBGGMS7Ti10ckQLUOTE/LYjNabfBAzxOdCoBBvPTu2U1FLF17jT098pFboQw5uunZSBZSenHSrZa476OEZuUyP1LY+1OUV01Q4NjBgKVd34u8zj1S9FO+7KpNIEXTZewV1tCg7oj33zjoVJ3oQHLCBDNW1YDwJ5HH4Eq3Gupu+GyVJX2ccwvH1wZxSdd6gs87pUXL4wv18n6TNFvvy5TuAS5cPnRGXYCBZJIJjcbyJMhCDRGHTbSnPJ44SUk628+e3bAXR7JmwULslEapQQQN/C2J0lSjyco5UspkIVoOy/U5vLCiYBqrdDcw1MVomNsgI4jGXNV4zQQF7aSZKlidrR1Iphpkx/UfcDeI+8OBksR/biiANe3o9Atcq1Vbwhn5Iqb0zB3nxnb/5D4zatCUkIyRm/KsYrRwD9ovmaCz8gZmpqW22hN+OTn/NweLscGhotx/GVPLkdtuptCHssQMPsQ=
+  on:
+    tags: true
+    repo: Kkoile/figure-speaker-wifi-connector
